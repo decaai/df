@@ -46,10 +46,24 @@
             <li>Reading Books</li>
             <li>Traveling</li>
         </ul>
+        <h1>Click a Button</h1>
+    
+    <div class="button-container">
+        <button onclick="buttonClicked('Button 1 clicked!')">Button 1</button>
+        <button onclick="buttonClicked('Button 2 clicked!')">Button 2</button>
+        <button onclick="buttonClicked('Button 3 clicked!')">Button 3</button>
+    </div>
+
     </main>
     
     <footer>
         <p>© 2025 My Simple Webpage</p>
     </footer>
 </body>
+    
+    <script>
+        function buttonClicked(message) {
+            alert(message);
+        }
+    </script>
 </html>
